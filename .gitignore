@@ -4,3 +4,6 @@
 *.pt
 __pycache__
 wandb
+
+*.venv
+*data

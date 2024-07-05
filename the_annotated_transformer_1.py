@@ -885,6 +885,8 @@ def run_tests():
 show_example(run_tests)
 
 
+
+
 # %% [markdown]
 # # Part 2: Model Training
 
@@ -1711,7 +1713,7 @@ def train_worker(
 
 # %% tags=[]
 def train_distributed_model(vocab_src, vocab_tgt, spacy_de, spacy_en, config):
-    from the_annotated_transformer import train_worker
+    from the_annotated_transformer_1 import train_worker
 
     ngpus = torch.cuda.device_count()
     os.environ["MASTER_ADDR"] = "localhost"
